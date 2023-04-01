@@ -54,7 +54,7 @@ while($row = mysqli_fetch_assoc($query_result)){
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
 		<div class="navbar-header">
-		<a class="navbar-brand" href="index.php">PE QUALITY PORTAL</a>
+		<a class="navbar-brand" href="index.php">APPROVAL SYSTEM</a>
 		</div>
 		<ul class="nav navbar-nav navbar-right">      
 			<li class="dropdown"><a class="dropdown-toggle thick" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Hi , <?php if( !isset($_SESSION['name']) ){    echo "Selamat Datang" ;}   else{    echo $_SESSION['name']." [".$_SESSION['level']."]" ;}    ?>
